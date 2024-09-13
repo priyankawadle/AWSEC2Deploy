@@ -6,6 +6,6 @@ app.get('/api/get',(req,res)=>{
     res.send("welcome to aws ec2 deployment")
 })
 
-app.listen(process.env.PORT,()=>{
-    console.log("listening port :",process.env.PORT)
+app.listen(5000,()=>{
+    console.log("listening port :",5000)
 })

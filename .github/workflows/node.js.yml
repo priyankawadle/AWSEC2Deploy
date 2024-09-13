@@ -29,3 +29,7 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - run: |
+        touch .env
+        echo "${{ secrets.NODE_ENV_FILE }}" > .env
+    - run: pm2 restart apiserver

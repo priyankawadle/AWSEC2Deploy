@@ -2,7 +2,7 @@ const express = require("express");
 require('dotenv').config();
 const app = express();
 
-app.get('/',(req,res)=>{
+app.get('/api/get',(req,res)=>{
     res.send("welcome to aws ec2 deployment")
 })
 

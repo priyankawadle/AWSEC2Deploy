@@ -54,3 +54,9 @@ If you need to restart your Node.js application managed by PM2, you can use the 
 
 pm2 restart apiserver
 These steps should help you set up a Node.js backend API with Nginx and PM2 on your Debian-based Linux system. Make sure to customize the paths and filenames according to your specific project.
+
+
+<!-- wadle98priyanka
+Sg5XS8kBrdzTMoUm -->
+
+<!-- mongodb+srv://wadle98priyanka:Sg5XS8kBrdzTMoUm@cluster0.thimm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 -->

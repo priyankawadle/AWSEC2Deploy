@@ -1,11 +1,15 @@
 const express = require("express");
+const bodyParser = require("body-parser")
+const connectDB = require("./config/dbconnection");
+const userRoute = require('./routes/users')
+
 require('dotenv').config();
 const app = express();
+connectDB();
 
-app.get('/api/get',(req,res)=>{
-    res.send("welcome to aws ec2 deployment finally")
-})
+app.use(bodyParser.json());
+app.use(userRoute);
 
-app.listen(5000,()=>{
-    console.log("listening port :",5000)
+app.listen(process.env.PORT, () => {
+    console.log("listening port :", process.env.PORT)
 })

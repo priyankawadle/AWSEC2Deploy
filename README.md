@@ -17,7 +17,7 @@ sudo apt update
 Step 2: Install Node.js
 Install Node.js using the following command:
 
-sudo apt-get install -y nodejs
+sudo apt-get install -y nodejs npm
 Step 3: Install Nginx
 Install Nginx to act as a reverse proxy for your Node.js application:
 
@@ -55,7 +55,8 @@ If you need to restart your Node.js application managed by PM2, you can use the 
 pm2 restart apiserver
 These steps should help you set up a Node.js backend API with Nginx and PM2 on your Debian-based Linux system. Make sure to customize the paths and filenames according to your specific project.
 
-
+ <!-- sudo ./svc.sh install -->
+  <!-- sudo ./svc.sh start -->
 <!-- wadle98priyanka
 Sg5XS8kBrdzTMoUm -->
 
